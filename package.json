@@ -1,0 +1,22 @@
+{
+  "name": "productapi",
+  "version": "1.0.0",
+  "description": "this is product api with login",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "author": "sachin singh",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.12",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}

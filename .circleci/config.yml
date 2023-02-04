@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:
     machine:
-      image: ubuntu-latest
+      image: ubuntu-2004:202010-01
     steps:
       - checkout
       - run:
@@ -19,7 +19,7 @@ jobs:
             - .
   test:
     machine:
-      image: ubuntu-latest
+      image: ubuntu-2004:202010-01
     steps:
       - attach_workspace:
           at: .

@@ -1,0 +1,8 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/eslintrc.json": [
+            "file:///home/mtpc-488/SachinProjects/productAPI/.circleci/config.yml",
+            "file:///home/mtpc-488/SachinProjects/productAPI/.github/workflows/deploy.yml"
+        ]
+    }
+}
